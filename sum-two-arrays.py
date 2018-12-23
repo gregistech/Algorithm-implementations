@@ -1,9 +1,9 @@
-A = [1,2,4,8,10,100,500,1000,5000,10000]
-B = [0,4,1,4,23,50,250,500,500,10]
-C = []
-print(A)
-print(B)
-for n,k in enumerate(A):
-	C.insert(n + 1, A[n] + B[n])
-print(C)
+A = [1,2,4,8,10,100,500,1000,5000,10000] #We initialize our first list...
+B = [0,4,1,4,23,50,250,500,500,10] #then our second list...
+C = [] #and the result list.
+print(A) #We print the first array...
+print(B) #and the second array.
+for n,k in enumerate(A): #We enumerate through our numbers.
+	C.insert(n + 1, A[n] + B[n]) #We insert the sums into the 'C' list.
+print(C) #We print out the results.
   
