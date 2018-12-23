@@ -1,4 +1,4 @@
-import sys
+import sys #We import sys
 
 sys.argv.pop(0)
 params = list(map(int, sys.argv))
@@ -10,7 +10,7 @@ print(v)
 print(A)
 for j in range(len(A)):
 	if A[j] == v:
-		i = j;
+		i = j
 		break
 	else: 
 		i = "Couldn't find it"
