@@ -25,7 +25,7 @@ $: python insertion-sort.py 1 7 3 4 8 2 3 5 9 10
 It's the same as the 'insertion-sort.py', just it puts the array in decreasing order.
 ### Example
 ```
-$: python insertion-sort-nonincreasing.py 1 3 2 5 4
+$: python insertion-sort-nonincreasing.py 1 3 3 5 4
 [1, 3, 3, 5, 4]
 [5, 4, 3, 3, 1]
 ```
