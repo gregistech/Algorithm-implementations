@@ -8,7 +8,7 @@ params.pop(0)
 A = params
 print(v)
 print(A)
-for j in range(len(A)):
+for j,k in enumerate(A):
 	if A[j] == v:
 		i = j
 		break
