@@ -32,9 +32,9 @@ $: python insertion-sort-nonincreasing.py 1 3 3 5 4
 ```
 ## linearsearch.py
 ### How does it work?
-![Linear Search algorithm visualisation](https://image.slidesharecdn.com/ch12searchlinearbinary-150930234148-lva1-app6891/95/linear-search-binary-search-2-638.jpg/cb=3D1443658121&f=1)
-"It sequentially checks each element of the list until a match is found or the whole list has been searched." - Wikipedia
-So we enumerate through the numbers we search in, an check for our value.
+![Linear Search algorithm visualisation](https://i.imgur.com/ltmrpQg.png)
+"It sequentially checks each element of the list until a match is found or the whole list has been searched." - Wikipedia \n
+So we enumerate through the numbers we search in, an check for our value. \n
 ### Example
 ```
 $: python linearsearch.py 1 0 2 3 4 1 6 7
