@@ -4,7 +4,6 @@
 ## insertion-sort.py
 ### How does it work?
 ![Insertion Sort algorithm visualisation](https://upload.wikimedia.org/wikipedia/commons/4/42/Insertion_sort.gif)
-(https://app.fossa.io/projects/git%2Bgithub.com%2Fthegergo02%2FAlgorithm-implementations?ref=badge_shield)
 
 Insertion Sort (I'm going to call it "the algorithm", I don't want to type too much), sort one element at the time. It's not efficient on a large number of data.
 ### Then where you can use it?
