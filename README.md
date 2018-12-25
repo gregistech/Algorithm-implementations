@@ -1,9 +1,10 @@
-# Algorithm-implementations
+# Algorithm-implementations 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fthegergo02%2FAlgorithm-implementations.svg?type=shield)]
 
 ## insertion-sort.py
 ### How does it work?
 ![Insertion Sort algorithm visualisation](https://upload.wikimedia.org/wikipedia/commons/4/42/Insertion_sort.gif)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fthegergo02%2FAlgorithm-implementations.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fthegergo02%2FAlgorithm-implementations?ref=badge_shield)
+(https://app.fossa.io/projects/git%2Bgithub.com%2Fthegergo02%2FAlgorithm-implementations?ref=badge_shield)
 
 Insertion Sort (I'm going to call it "the algorithm", I don't want to type too much), sort one element at the time. It's not efficient on a large number of data.
 ### Then where you can use it?
@@ -30,7 +31,19 @@ $: python insertion-sort-nonincreasing.py 1 3 3 5 4
 [1, 3, 3, 5, 4]
 [5, 4, 3, 3, 1]
 ```
-
+## linearsearch.py
+### How does it work?
+![Linear Search algorithm visualisation](https://image.slidesharecdn.com/ch12searchlinearbinary-150930234148-lva1-app6891/95/linear-search-binary-search-2-638.jpg/cb=3D1443658121&f=1)
+"It sequentially checks each element of the list until a match is found or the whole list has been searched." - Wikipedia
+So we enumerate through the numbers we search in, an check for our value.
+### Example
+```
+$: python linearsearch.py 1 0 2 3 4 1 6 7
+1
+[0, 2, 3, 4, 1, 6, 7]
+4
+5
+```
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fthegergo02%2FAlgorithm-implementations.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fthegergo02%2FAlgorithm-implementations?ref=badge_large)
